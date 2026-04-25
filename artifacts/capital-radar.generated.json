@@ -1,0 +1,320 @@
+{
+  "generatedAt": "2026-04-25T22:30:05.028898+00:00",
+  "reportCount": 3,
+  "themes": [
+    {
+      "id": "ai-compute-power-infra",
+      "slug": "ai-compute-power-infra",
+      "name": "AI Compute & Power Infrastructure",
+      "description": "AI compute buildout links datacenters, accelerators, grid access, power equipment, and capex cycles.",
+      "heatScore": 96,
+      "heatChange7d": 12,
+      "consensusLevel": 75,
+      "logicStrength": 79,
+      "keyVariables": [
+        "power-demand",
+        "capex-cycle",
+        "ai-adoption",
+        "infrastructure-capex",
+        "us-10y-yield"
+      ],
+      "relatedReportIds": [
+        "rpt-crossasset-003",
+        "rpt-ai-grid-001"
+      ]
+    },
+    {
+      "id": "us-fiscal-duration",
+      "slug": "us-fiscal-duration",
+      "name": "US Fiscal and Duration Pressure",
+      "description": "Fiscal supply, term premium, and long-end rates are shaping cross-asset positioning.",
+      "heatScore": 91,
+      "heatChange7d": 10,
+      "consensusLevel": 75,
+      "logicStrength": 78,
+      "keyVariables": [
+        "us-10y-yield",
+        "term-premium",
+        "ai-adoption",
+        "capex-cycle",
+        "infrastructure-capex",
+        "power-demand"
+      ],
+      "relatedReportIds": [
+        "rpt-crossasset-003",
+        "rpt-macro-002"
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "ai-adoption",
+      "name": "AI Adoption",
+      "description": "AI penetration across software, content, devices, and vertical industry workflows.",
+      "currentState": "A same-day follow-up note reinforces that power bottlenecks and grid upgrades are central to the AI capex chain.",
+      "trendLabel": "Rising",
+      "relatedThemeIds": [
+        "ai-compute-power-infra",
+        "us-fiscal-duration"
+      ],
+      "sensitivitySectors": [
+        "Software",
+        "Media",
+        "Consumer Electronics"
+      ],
+      "pricingPath": "Power availability is becoming a bottleneck for compute deployment.",
+      "riskStatement": "This variable weakens if reports stop reinforcing ai adoption as a live market driver."
+    },
+    {
+      "id": "capex-cycle",
+      "name": "Capex Cycle",
+      "description": "Corporate, infrastructure, and manufacturing capital spending cycle.",
+      "currentState": "A same-day follow-up note reinforces that power bottlenecks and grid upgrades are central to the AI capex chain.",
+      "trendLabel": "Firm",
+      "relatedThemeIds": [
+        "ai-compute-power-infra",
+        "us-fiscal-duration"
+      ],
+      "sensitivitySectors": [
+        "Industrial Equipment",
+        "Semicap",
+        "Datacenters"
+      ],
+      "pricingPath": "Power availability is becoming a bottleneck for compute deployment.",
+      "riskStatement": "This variable weakens if reports stop reinforcing capex cycle as a live market driver."
+    },
+    {
+      "id": "infrastructure-capex",
+      "name": "Infrastructure Capex",
+      "description": "Physical infrastructure spending tied to new transportation, energy, and urban systems.",
+      "currentState": "A same-day follow-up note reinforces that power bottlenecks and grid upgrades are central to the AI capex chain.",
+      "trendLabel": "Rising",
+      "relatedThemeIds": [
+        "ai-compute-power-infra",
+        "us-fiscal-duration"
+      ],
+      "sensitivitySectors": [
+        "Infrastructure",
+        "Industrials",
+        "Transportation"
+      ],
+      "pricingPath": "Power availability is becoming a bottleneck for compute deployment.",
+      "riskStatement": "This variable weakens if reports stop reinforcing infrastructure capex as a live market driver."
+    },
+    {
+      "id": "power-demand",
+      "name": "Power Demand",
+      "description": "Electricity demand linked to AI datacenter expansion and grid constraints.",
+      "currentState": "A same-day follow-up note reinforces that power bottlenecks and grid upgrades are central to the AI capex chain.",
+      "trendLabel": "Rising",
+      "relatedThemeIds": [
+        "ai-compute-power-infra",
+        "us-fiscal-duration"
+      ],
+      "sensitivitySectors": [
+        "Utilities",
+        "Electrical Equipment",
+        "Datacenters"
+      ],
+      "pricingPath": "Power availability is becoming a bottleneck for compute deployment.",
+      "riskStatement": "This variable weakens if reports stop reinforcing power demand as a live market driver."
+    },
+    {
+      "id": "term-premium",
+      "name": "Term Premium",
+      "description": "Additional compensation investors demand to hold longer-dated Treasuries.",
+      "currentState": "Fiscal supply and higher-for-longer assumptions are pushing duration and yields back into focus.",
+      "trendLabel": "Rising",
+      "relatedThemeIds": [
+        "us-fiscal-duration"
+      ],
+      "sensitivitySectors": [
+        "Rates",
+        "Financials",
+        "Long-duration Equities"
+      ],
+      "pricingPath": "Long-duration equities remain exposed to higher real rates.",
+      "riskStatement": "This variable weakens if reports stop reinforcing term premium as a live market driver."
+    },
+    {
+      "id": "us-10y-yield",
+      "name": "US 10Y Yield",
+      "description": "Benchmark long-end US yield reflecting duration, supply, and macro repricing.",
+      "currentState": "Fiscal supply and higher-for-longer assumptions are pushing duration and yields back into focus.",
+      "trendLabel": "Elevated",
+      "relatedThemeIds": [
+        "ai-compute-power-infra",
+        "us-fiscal-duration"
+      ],
+      "sensitivitySectors": [
+        "Tech",
+        "Real Estate",
+        "Banks"
+      ],
+      "pricingPath": "Long-duration equities remain exposed to higher real rates.",
+      "riskStatement": "This variable weakens if reports stop reinforcing us 10y yield as a live market driver."
+    }
+  ],
+  "reports": [
+    {
+      "id": "rpt-crossasset-003",
+      "title": "Utilities and rates now sit inside the same AI trade",
+      "source": "CrossAsset Weekly",
+      "publisher": "CrossAsset Weekly",
+      "author": "Hermes Demo",
+      "publishedAt": "2026-04-24T11:00:00Z",
+      "reportType": "strategy",
+      "summary": "The market is increasingly treating power infrastructure, yields, and capex as linked components of the AI trade.",
+      "keyClaims": [
+        "AI capex needs physical infrastructure beyond semiconductors.",
+        "Higher yields can change where in the chain capital wants exposure."
+      ],
+      "evidenceStrength": 76,
+      "timeHorizon": "3-12 months",
+      "sectors": [
+        "Utilities",
+        "Industrials",
+        "Semiconductors"
+      ],
+      "themeIds": [
+        "ai-compute-power-infra",
+        "us-fiscal-duration"
+      ],
+      "variableIds": [
+        "power-demand",
+        "capex-cycle",
+        "ai-adoption",
+        "infrastructure-capex",
+        "us-10y-yield"
+      ]
+    },
+    {
+      "id": "rpt-macro-002",
+      "title": "Term premium repricing is re-entering the equity conversation",
+      "source": "Sample Research",
+      "publisher": "Sample Research",
+      "author": "Hermes Demo",
+      "publishedAt": "2026-04-24T09:30:00Z",
+      "reportType": "macro",
+      "summary": "Fiscal supply and higher-for-longer assumptions are pushing duration and yields back into focus.",
+      "keyClaims": [
+        "Long-duration equities remain exposed to higher real rates.",
+        "Macro narratives are re-linking fiscal pressure with style dispersion."
+      ],
+      "evidenceStrength": 79,
+      "timeHorizon": "1-6 months",
+      "sectors": [
+        "Rates",
+        "Software",
+        "Real Estate"
+      ],
+      "themeIds": [
+        "us-fiscal-duration"
+      ],
+      "variableIds": [
+        "us-10y-yield",
+        "term-premium"
+      ]
+    },
+    {
+      "id": "rpt-ai-grid-001",
+      "title": "AI datacenter buildout is pulling forward grid investment",
+      "source": "Sample Research",
+      "publisher": "Sample Research",
+      "author": "Hermes Demo",
+      "publishedAt": "2026-04-24T08:00:00Z",
+      "reportType": "sector",
+      "summary": "A same-day follow-up note reinforces that power bottlenecks and grid upgrades are central to the AI capex chain.",
+      "keyClaims": [
+        "Power availability is becoming a bottleneck for compute deployment.",
+        "Utilities and electrical equipment sit earlier in the capex chain than semis.",
+        "Transmission and utility capex are moving closer to the center of the AI narrative.",
+        "Electrical equipment vendors gain from faster interconnection investment."
+      ],
+      "evidenceStrength": 82.0,
+      "timeHorizon": "6-18 months",
+      "sectors": [
+        "Utilities",
+        "Electrical Equipment",
+        "Datacenters"
+      ],
+      "themeIds": [
+        "ai-compute-power-infra"
+      ],
+      "variableIds": [
+        "power-demand",
+        "capex-cycle",
+        "ai-adoption",
+        "infrastructure-capex"
+      ],
+      "duplicateReportIds": [
+        "rpt-ai-grid-001b"
+      ]
+    }
+  ],
+  "logicChains": [
+    {
+      "id": "lc-duration-pressure",
+      "themeId": "us-fiscal-duration",
+      "title": "Fiscal supply pressure re-prices long-duration assets",
+      "trigger": "The market is increasingly treating power infrastructure, yields, and capex as linked components of the AI trade.",
+      "firstOrderEffect": "AI capex needs physical infrastructure beyond semiconductors.",
+      "secondOrderEffect": "Cross-asset leadership shifts toward shorter-duration and inflation-aware exposures.",
+      "beneficiaries": [
+        "Banks",
+        "Value-oriented Equities"
+      ],
+      "losers": [
+        "Long-duration Growth"
+      ],
+      "timeHorizon": "3-12 months",
+      "falsification": "The US Fiscal and Duration Pressure thesis weakens if new reports stop reinforcing this chain."
+    }
+  ],
+  "divergencePoints": [
+    {
+      "id": "div-ai-compute-power-infra",
+      "themeId": "ai-compute-power-infra",
+      "title": "Debate around ai-compute-power-infra",
+      "bullCase": "AI capex needs physical infrastructure beyond semiconductors.",
+      "bearCase": "Positioning can unwind if incoming reports stop extending the ai-compute-power-infra narrative.",
+      "whatBreaksTie": "The next wave of reports, macro data, and company guidance will determine whether this theme broadens or fades."
+    },
+    {
+      "id": "div-us-fiscal-duration",
+      "themeId": "us-fiscal-duration",
+      "title": "Debate around us-fiscal-duration",
+      "bullCase": "AI capex needs physical infrastructure beyond semiconductors.",
+      "bearCase": "Positioning can unwind if incoming reports stop extending the us-fiscal-duration narrative.",
+      "whatBreaksTie": "The next wave of reports, macro data, and company guidance will determine whether this theme broadens or fades."
+    }
+  ],
+  "decisionMemo": {
+    "asOf": "2026-04-25T22:30:05.028885+00:00",
+    "headline": "Capital attention is clustering around the most reinforced themes across the latest report set.",
+    "summary": "The current artifact emphasizes the themes with the strongest report reinforcement, evidence quality, and cross-report recurrence.",
+    "watchItems": [
+      "AI capex needs physical infrastructure beyond semiconductors.",
+      "Long-duration equities remain exposed to higher real rates.",
+      "Power availability is becoming a bottleneck for compute deployment."
+    ],
+    "candidateExpressions": [
+      "Track listed beneficiaries linked to ai-compute-power-infra for confirmation or fade.",
+      "Track listed beneficiaries linked to us-fiscal-duration for confirmation or fade."
+    ],
+    "invalidations": [
+      "New reports stop reinforcing the current top themes.",
+      "The most cited macro variables reverse without follow-through in fresh research."
+    ],
+    "topThemeIds": [
+      "ai-compute-power-infra",
+      "us-fiscal-duration"
+    ]
+  },
+  "heroQuestions": [
+    "What is capital paying attention to right now?",
+    "Which narratives are strengthening across reports?",
+    "Where do consensus and divergence matter for positioning?"
+  ],
+  "headlineOverride": "Capital attention is clustering around AI infrastructure and fiscal-duration pressure."
+}
