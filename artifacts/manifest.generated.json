@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-04-25T22:38:03.831545+00:00",
+  "upstreamRepo": "https://github.com/manymore13/report",
+  "upstreamCommit": "243c237ff6e039f93265bb82f0665f12e3e41039",
+  "upstreamFetchedAt": "2026-04-25T22:32:09.393546+00:00",
+  "workflowRunId": "24942238175",
+  "inputPath": "artifacts/inputs/normalized_reports.upstream.json",
+  "artifactPath": "public/artifacts/capital-radar.generated.json",
+  "lookbackDays": 5,
+  "enrichMaxReports": 10,
+  "requireEnrichCap": true,
+  "lookbackAnchorDate": "2026-04-25",
+  "lookbackStartDate": "2026-04-21"
+}
